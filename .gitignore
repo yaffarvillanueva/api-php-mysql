@@ -1,0 +1,29 @@
+# Archivos sensibles con contraseñas
+config.php
+conexion_local.php
+conexion_servidor.php
+*.env
+
+# Carpetas temporales de XAMPP
+tmp/
+temp/
+logs/
+cache/
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Archivos de respaldo y bases de datos
+*.bak
+*.backup
+*.sql
+*.sql.gz
+*.old
+
+# Carpetas de pruebas
+pruebas/
+test/
+borrar/
+Agregado .gitignore para proteger archivos sensibles
